@@ -32,6 +32,6 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: run surge
-        run: surge ./ bc2021p1.surge.sh --token ${{secret.P1_SECRET}}
+        run: surge ./ bc2021p1.surge.sh --token ${{secrets.P1_SECRET}}
       
 
